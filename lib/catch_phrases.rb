@@ -13,16 +13,13 @@ def link
   puts phrase
 end
 
-def all_phrases (character)
-  character == mario
-    puts mario
+def all_phrases (character == mario)
+  puts phrase
   
-  character == toadstool
-  puts toadstool
-  
-  character == link
-  puts link
-  
-  end
+  if character == toadstool
+  puts phrase
+  elsif character == link
+  puts phrase
+end
 end
     
