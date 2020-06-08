@@ -12,14 +12,13 @@ def link
   phrase = 'It\'s Dangerous To Go Alone! Take This.'
   puts phrase
 end
-
-def all_phrases (character == mario)
-  puts phrase
-  
-  if character == toadstool
-  puts phrase
-  elsif character == link
-  puts phrase
-end
-end
     
+def all_phrases(character)
+  if character == "mario"
+    puts mario 
+  elsif character == 'toadstool'
+  puts toadstool 
+  elsif character == 'link'
+  puts link
+end
+end
