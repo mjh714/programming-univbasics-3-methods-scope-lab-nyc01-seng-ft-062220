@@ -13,5 +13,12 @@ def link
   puts phrase
 end
     
-def all_phrases()
+def all_phrases(character)
+  if character == "mario"
+    puts mario 
+    elsif character == "toadstool"
+    puts toadstool
+    elsif character == "link"
+    puts link 
+  end
 end
